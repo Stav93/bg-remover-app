@@ -1,0 +1,49 @@
+.bg{
+  width:800px;
+  height: 650px;
+  margin:0 auto;
+  margin-top:150px;
+  border-radius: 8px;
+  box-shadow: 1px 1px 10px black;
+  background-color: #222A34;
+}
+
+.header{
+  position: relative;
+  height: 80px;
+}
+
+.header-text{
+  color: white;
+  text-align: right;
+  font-size: 30px;
+  width: 100%;
+  float: right;
+  margin-right: 25px;
+  margin-top: 4px;
+}
+
+.header-btn{
+  background-image: url("../assets/Upload.png");
+  float: left;
+  background-color:  #475366;
+  margin-top: -29px;
+  margin-left: 25px;
+  border: none;
+  border-radius: 8px;
+  height: 30px;
+  width: 110px;
+  padding-left: 29px;
+  background-repeat: no-repeat;
+  background-position: 10px;
+  /* font-family: 'Aduma'; */
+  color:white;
+}
+
+.header-subtext{
+  color: white;
+  top: 27px;
+  position: absolute;
+  left: 154px;
+  direction: rtl;
+}
