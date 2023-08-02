@@ -5,8 +5,8 @@ import "./Bg.css";
 function Bg() {
   const [displayNoBgTab, setdisplayNoBgTab] = useState(false);
 
-  const changeTab = () => {
-    if (displayNoBgTab === true) {
+  const changeTab = (e) => {
+    if (e.target.classList.value === "no-bg") {
       setdisplayNoBgTab(false);
     } else {
       setdisplayNoBgTab(true);
